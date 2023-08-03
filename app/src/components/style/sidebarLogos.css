@@ -1,0 +1,107 @@
+.sideBarLogos{
+    width: 34px;
+    height: 34px;
+    margin: 3px;
+}
+.controller  {
+    margin-right: -20px !important;
+    margin-top: 12px;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+}
+.liSide{
+    margin-bottom: 15px;
+}
+.bar{
+    background-color: #1D5D9B;
+}
+.Scontent{
+    background-color: #1D5D9B;
+}
+.icerik{
+    margin-bottom: 0;
+}
+#ulBar{
+    padding-left: 0;
+    padding-top: 0;
+}
+.table{
+    display: flex;
+}
+#sideBarLogo{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#userNameTitle{
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#userEmailTitle{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#userRolTitle{
+    opacity: 0.9;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sidebarmenuTitle{
+    font-size: 18px;
+    color: #fff;
+    padding: 8px;
+}
+#userTitle{
+    word-wrap: break-word;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+.sideBarDiv{
+    background-color: #fff5;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.sideBarDiv:hover{
+    background-color: #f6f4ebaa;
+    color: #1D5D9B !important;
+    transition: all 0.7s;
+}
+
+
+.Scontent {
+    width: 95%;
+    max-height: calc(100% - 0rem);
+    overflow: auto;
+    height: 100vh;
+    width: 100%;
+}
+.Scontent::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.Scontent::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #fff5;
+    visibility: hidden;
+}
+.Scontent:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  body{
+    background-color: #1D5D9B !important;
+  }
+.app {
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nameArea,
+.ageArea,
+.positionArea,
+.avansArea{
+    display: inline-block !important;
+}
+
+main.table {
+    height: 100vh;
+    background-color: #fff5;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.list-group-item{
+    height: 60px !important;
+}
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.photoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoBack{
+    width: 45px;
+    height: 45px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+.name,
+.age,
+.position,
+.avans{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.container{
+    padding: 0;
+    margin-right: 0 !important;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.171);
+    box-shadow: 0 .4rem .8rem #0005;    
+    width: 100%;
+    border-collapse: separate;
+}
+.table_body {
+    width: 95%;
+    max-height: calc(100% - 0rem);
+    overflow: auto;
+    width: 100%;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+.table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+table, th,td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+    position: relative;
+}
+thead th{
+    color: #fff;
+}
+
+.colPhoto,
+.colPosition{
+    padding-left: 0 !important;
+}
+.colAvans{
+    padding-left: 20px !important;
+}
+tbody tr:nth-child(even){
+    background-color: #1b6b9397;
+    color: #fff;
+}
+tbody tr:nth-child(odd){
+    background-color: rgba(27, 107, 147, 0.847);
+    color: #fff;
+}
+select{
+    color: #fff;
+    cursor: pointer;
+}  
+select:invalid { 
+    color: gray; 
+    text-transform:capitalize !important;
+}
+select:hover{
+    transition: all 1s ease;
+}
+.companyLabel{
+    font-size: 17px !important;
+}
+.companyLabelBox{
+    flex: 0 0 auto;
+    width: 35.4%;
+}
+
+tbody{
+    overflow: hidden;
+}
+.Toastify__toast-theme--light {
+    font-weight: 700 !important;
+    font-size: 15px;
+    color: #000 !important;
+}
+.infoArea,
+.deleteArea{
+    background-color: #fff;
+    width: 50px;
+    border-radius: 30px;
+    height: 34px;
+    transition: all 0.5s ease;
+}
+.infoArea{
+    margin-right: 8px;
+    color: rgb(47, 190, 47);
+    margin-top: 0px !important;
+}
+.deleteArea{
+    color: red;
+}
+.infoArea:hover{
+    background-color: rgb(47, 190, 47);;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.deleteArea:hover{
+    background-color: red;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.fa-circle-info,
+.fa-trash{
+    font-size: 20px;
+}
+#tableHeader {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #060131 !important;
+  }
+.searchbtn:hover{
+    background-color: #fff !important;
+    border:1px solid #fff;
+    color: #F86F03;
+    transition: all 0.5s ease;
+}
+.searchbtn{
+    border-radius: 10px;
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    transition: all 0.5s ease;
+    color: #fff;
+    background-color: #F86F03 !important;
+    border: 1px solid #F86F03;
+}
+.searchInputArea{
+    width: 300px;
+    position: absolute;
+    right: 12px;
+    top: 70px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.input-group{
+    padding: 0 !important;
+    border-radius: 10px;
+}
+tbody{
+    border: 0px !important;
+    border-color: #fff5 !important;
+}
+.realProfileListe,
+.profileImgListe{
+    width: 50px !important;
+    height: 50px !important;
+}
+#deleteLeaves{
+    margin: 15px !important;
+}
+@media only screen and (max-width:768px) { 
+    .infoArea{
+        margin-bottom: 8px;
+    }
+    .searchInputArea{
+        width: 200px;
+        position: absolute;
+        right: 12px;
+        top: 72px;
+        z-index: 1;
+        border-radius: 10px;
+    }
+}
+@media only screen  and (max-width:1000px) and (orientation: landscape) {
+    .infoArea{
+        margin-bottom: 5px;
+    }
+    .table{
+        margin-bottom: 0 !important;
+    }
+    .searchInputArea{
+        width: 200px;
+        position: absolute;
+        right: 12px;
+        top: 72px;
+        z-index: 1;
+        border-radius: 10px;
+    }
+  }

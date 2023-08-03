@@ -1,0 +1,19 @@
+#companyImg{
+    width: 80% !important;
+}
+#companyModal{
+    margin-top: 10% !important;
+}
+@media only screen and (orientation: landscape) {
+    #companyModal .model-content{
+        margin-top: 5% !important;
+    }
+  }
+@media only screen and (max-width:768px) { 
+    #companyEmailText{
+        font-size: 15px;
+    }
+    #companyModal{
+        margin-left: 0 !important;
+    }
+}

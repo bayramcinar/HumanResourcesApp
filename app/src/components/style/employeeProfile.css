@@ -1,0 +1,191 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+.profileImg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.profilePhotoArea{
+    margin: 25px;
+}
+.boxProfile{
+    width: 700px;
+    height: auto;
+    transition: height 4s;
+}
+.modalProfile .modal-body{
+    width: 700px;
+    background-color: #1D5D9B;
+}
+
+
+.profileName,
+.profileAge,
+.profileCompany,
+.profileAvans,
+.profilePhone,
+.profileGithub,
+.profileLinkedIn{
+    color: #fff;
+    font-size:20px;
+    display: inline-block;
+}
+.profileCompanyArea,
+.profileNameArea,
+.profileAgeArea,
+.profileAvansArea,
+.profilePhoneArea,
+.profileGithubArea,
+.profileLinkedInArea,
+.profileEmailArea{
+    margin: 15px;
+    color: #fff;
+    width: 100%;
+}
+.profileTitle{
+    display: inline-block;
+    font-size: 18px;
+}
+.modalProfile .modal-content{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;   
+}
+.editBtn{
+    padding: 8px;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.editNameInput,
+.editAgeInput,
+.editCompanyInput,
+.editAvansInput,
+.editPhoneInput,
+.editGithubInput,
+.editLinkedInInput{
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.editHakkımdaInput{
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.editSaveBtn{
+    width: 70px;
+    margin: 10px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0 !important;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+.editSaveBtn:hover{
+    box-shadow: 0px 15px 20px rgba(220, 185, 44, 0.4);
+    transition: ease 0.5s;
+    transform: translateY(-7px);
+}
+.editSaveBtn:hover{
+    color: #fff;
+}
+.editBtn:hover{
+    color: #fff;
+}
+.titleInfo{
+    color: #fff;
+    margin: 8px;
+    text-decoration: underline;
+}
+.infoText{
+    color: #fff;
+    margin: 8px;
+}
+.linkGithub,
+.linkLinkedIn{
+    color: #fff;
+}
+.fa-linkedin,
+.fa-github{
+    margin-right: 5px;
+}
+.modalProfile .modal-dialog {
+    margin-right: 40% !important;
+    width: 700px !important;
+}
+.realProfile {
+    width: 170px  !important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photoInput{
+    margin-top: 10px;
+}
+@media only screen and (max-width:768px) { 
+    .modalProfile .modal-content{
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 350px;
+    }
+    .boxProfile{
+        width: 350px;
+        height: auto;
+    }
+    .modalProfile .modal-body{
+        width: 350px;
+        background-color: #1D5D9B;
+    }
+    .hakkımdaDiv{
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }    
+    .Toastify__toast-container{
+        width: 60vw !important;
+        margin-left: 38%;
+        margin-top: 3%;
+    }   
+    .editHakkımdaInput{
+        width: 320px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: rgba(255, 255, 255, 0.2);
+        height: 200px ;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .modal-content{
+        margin-bottom: 60px;
+    }
+    .profileImg{
+        margin-right: 20px !important;
+    }
+    .modal-dialog{
+        margin-left: 0 !important;
+    }
+}
+@media only screen and (orientation: landscape) {
+    .modal-content{
+        margin-left: 60px !important;
+        margin-top: 5% ;
+    }
+  }
+
+ 

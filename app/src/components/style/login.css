@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+  }
+  body{
+    background-color: #1D5D9B !important;
+  }
+  .app {
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .loginScreen{
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px lightblue;
+  }
+  .ana{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  .signUpScreen{
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .userNameLabelText,
+  .passwordLabelText,
+  .SignUpPasswordLabelText,
+  .SignUpEmailLabelText,
+  .SignUpSurnameLabelText,
+  .SignUpNameLabelText{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 0px !important;
+  }
+  .title{
+    color: aliceblue;
+  }
+  .userNameInput,
+  .passwordInput,
+  .SignUpNameInput,
+  .SignUpSurnameInput,
+  .SignUpEmailInput,
+  .SignUpPasswordInput{
+    width: 230px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .userNameInput::placeholder,
+  .passwordInput::placeholder,
+  .SignUpNameInput::placeholder,
+  .SignUpSurnameInput::placeholder,
+  .SignUpEmailInput::placeholder,
+  .SignUpPasswordInput::placeholder{
+    color: #fff;
+    opacity: 0.6;
+  }
+  .userNameInput::before,
+  .passwordInput::before,
+  .SignUpNameInput::before,
+  .SignUpSurnameInput::before,
+  .SignUpEmailInput::before,
+  .SignUpPasswordInput::before{
+    border: rgba(255, 255, 255, 0.2)  ;
+  }
+  .areas{
+    padding: 8px;
+  }
+  .signInButton,
+  .signUpButton2{
+    letter-spacing: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    display: inline-block;
+    width: 100px ;
+    background-color: #0A6EBD;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px ;
+  }
+  .signInButton:hover,
+  .signUpButton2:hover{
+    color: #fff;
+    background-color: #0A6EBD;
+    box-shadow: 0px 15px 20px rgba(59, 217, 217, 0.4);
+    transition: ease 0.5s;
+    transform: translateY(-7px);
+  }
+  .signInButton:active,
+  .signUpButton2:active{
+    transform: translateY(-1px);
+  }
+  .signInButton{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .signUpButton2{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(17, 142, 215, 0.707);
+    color: aliceblue;
+  }
+  .buttonArea,
+  .buttonArea2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .signupText,
+  .signinText{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+  }
+  .askAccount{
+    color: #fff;
+  }
+  .passwordArea {
+    position: relative; 
+  }
+  .showPasswordLogin{
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%); 
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:768px) { 
+    .loginScreen{
+      width: 350px;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 25px;
+    }
+    .signUpScreen{
+      width: 350px;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 25px;
+    }
+    .userNameInput,
+    .passwordInput,
+    .SignUpNameInput,
+    .SignUpSurnameInput,
+    .SignUpEmailInput,
+    .SignUpPasswordInput{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .userNameLabelText,
+    .passwordLabelText,
+    .SignUpPasswordLabelText,
+    .SignUpEmailLabelText,
+    .SignUpSurnameLabelText,
+    .SignUpNameLabelText{
+      align-items: start;
+      font-size: 18px;
+      margin-bottom: 0px !important;
+    }
+    .userNameLabel,
+    .passwordLabel,
+    .SignUpPasswordLabel,
+    .SignUpEmailLabel,
+    .SignUpSurnameLabel,
+    .SignUpNameLabel{
+      padding-left: 0;
+    }
+    .showPasswordLogin{
+      width: 20px;
+      position: absolute;
+      right: 15px;
+      top: 65%;
+      transform: translateY(-50%); 
+      cursor: pointer;
+    }
+  }
